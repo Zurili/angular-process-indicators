@@ -1,0 +1,14 @@
+{
+  "name": "angular-progress-indicators",
+  "version": "0.0.1",
+  "description": "Angular 1+ progress indicator components",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "angular",
+    "progress",
+    "indicators"
+  ],
+  "author": "Alexander Mac",
+  "license": "MIT"
+}
