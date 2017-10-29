@@ -10,5 +10,8 @@
     "indicators"
   ],
   "author": "Alexander Mac",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.10.0"
+  }
 }
