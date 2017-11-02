@@ -1,17 +1,22 @@
 {
-  "name": "angular-progress-indicators",
+  "name": "angular-process-indicators",
   "version": "0.0.1",
-  "description": "Angular 1+ progress indicator components",
+  "description": "Angular 1+ process indicator components",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint --ext .js src/ || true"
+  },
   "keywords": [
     "angular",
-    "progress",
+    "process",
     "indicators"
   ],
   "author": "Alexander Mac",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^4.10.0"
+  },
+  "dependencies": {
+    "spinkit": "^1.2.5"
   }
 }

@@ -1,0 +1,8 @@
+<button class="{{ $ctrl.buttonCssClass }}"
+        ng-disabled="$ctrl.isDisabled"
+        ng-click="$ctrl.onClick()")>{{ $ctrl.buttonText }}
+</button>
+<span ng-if="$ctrl.isProcessing">
+    <span>&nbsp;</span>
+    <img src="/images/ajax-loader-16.gif" />
+</span>
